@@ -1,0 +1,45 @@
+{
+  "extends": ["next/core-web-vitals", "eslint:recommended", "prettier"],
+  "plugins": ["sort-imports-es6-autofix", "prettier"],
+  "rules": {
+    "no-duplicate-imports": "error",
+    "no-unused-vars": [
+      "error",
+      {
+        "vars": "local",
+        "args": "after-used",
+        "ignoreRestSiblings": true
+      }
+    ],
+    "sort-imports-es6-autofix/sort-imports-es6": [
+      "error",
+      {
+        "ignoreCase": true,
+        "ignoreMemberSort": false,
+        "memberSyntaxSortOrder": ["none", "all", "multiple", "single"]
+      }
+    ],
+    "prettier/prettier": "error",
+    "quotes": [
+      "error",
+      "single",
+      { "avoidEscape": true, "allowTemplateLiterals": false }
+    ],
+    "padding-line-between-statements": [
+      "error",
+      {
+        "blankLine": "never",
+        "prev": "singleline-const",
+        "next": "singleline-const"
+      },
+      {
+        "blankLine": "never",
+        "prev": "singleline-let",
+        "next": "singleline-let"
+      },
+      { "blankLine": "never", "prev": "import", "next": "import" }
+    ],
+    "spaced-comment": ["error", "always"],
+    "no-use-before-define": "off"
+  }
+}
