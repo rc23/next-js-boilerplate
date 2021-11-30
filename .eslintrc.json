@@ -1,6 +1,14 @@
 {
-  "extends": ["next/core-web-vitals", "eslint:recommended", "prettier"],
+  "extends": [
+    "next/core-web-vitals",
+    "eslint:recommended",
+    "prettier",
+    "plugin:cypress/recommended"
+  ],
   "plugins": ["sort-imports-es6-autofix", "prettier"],
+  "env": {
+    "jest": true
+  },
   "rules": {
     "no-duplicate-imports": "error",
     "no-unused-vars": [

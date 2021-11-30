@@ -6,6 +6,11 @@
     "build": "next build",
     "export": "next export",
     "start": "next start",
+    "test": "jest",
+    "cy:open": "cypress open",
+    "cy:headless": "cypress run",
+    "cypress": "start-server-and-test dev 3000 cy:open",
+    "cypress:headless": "start-server-and-test dev 3000 cy:headless",
     "lint": "next lint"
   },
   "dependencies": {
@@ -14,14 +19,23 @@
     "react-dom": "17.0.2"
   },
   "devDependencies": {
+    "@testing-library/jest-dom": "^5.15.1",
+    "@testing-library/react": "^12.1.2",
+    "@types/jest": "^27.0.3",
     "@types/node": "16.11.10",
     "@types/react": "17.0.37",
+    "cypress": "^9.1.0",
     "eslint": "7.32.0",
     "eslint-config-next": "12.0.4",
     "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-cypress": "^2.12.1",
     "eslint-plugin-prettier": "^4.0.0",
     "eslint-plugin-sort-imports-es6-autofix": "^0.6.0",
+    "identity-obj-proxy": "^3.0.0",
+    "jest": "^27.4.0",
     "prettier": "^2.5.0",
+    "react-test-renderer": "^17.0.2",
+    "start-server-and-test": "^1.14.0",
     "typescript": "4.5.2"
   }
 }

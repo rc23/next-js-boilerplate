@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders homepage unchanged 1`] = `
+<div
+  className="container"
+>
+  <nav
+    className="nav"
+  >
+    <a
+      href="/about"
+      onClick={[Function]}
+      onMouseEnter={[Function]}
+    >
+      About
+    </a>
+  </nav>
+  <main
+    className="main"
+  >
+    <h1
+      className="title"
+    >
+      My Journey!
+    </h1>
+  </main>
+</div>
+`;
