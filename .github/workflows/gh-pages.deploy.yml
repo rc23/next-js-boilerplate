@@ -24,13 +24,13 @@ jobs:
       - name: Build project
         run: yarn build
         env:
-          NEXT_PUBLIC_BASE_PATH: /journey
+          NEXT_PUBLIC_BASE_PATH: /next-js-boilerplate
       - name: Run Unit Tests
         run: yarn test
       - name: Export static files
         run: yarn export
         env:
-          NEXT_PUBLIC_BASE_PATH: /journey
+          NEXT_PUBLIC_BASE_PATH: /next-js-boilerplate
       - name: Run e2e Tests
         run: yarn cypress:headless
       - name: Add .nojekyll file

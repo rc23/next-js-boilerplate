@@ -9,7 +9,7 @@ const Home: NextPage = () => {
   return (
     <Container>
       <Head>
-        <title>rc23 - journey</title>
+        <title>next-js-boilerplate</title>
         <meta name="description" content="rc23" />
         <link rel="icon" href={prefix + '/favicon.ico'} />
       </Head>

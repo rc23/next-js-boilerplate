@@ -1,8 +1,35 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+## 🚀 Boilerplate and Starter for Next.js 🚀
+
+Next.js, TypeScript, Styled Components, Jest, Cypress, React Testing Library, ESLint, Prettier, Docker, GitHub Actions/Pages
+
+Clone this project and use it to create your own Next.js project. You can check a Next js templates demo.
+
+Features:
+
+Next.js for Static Site Generator
+Type checking TypeScript
+Integrate using Styled Components
+Unit testing using Jest and React Testing Library
+e2e testing using Cypress
+Linter using ESLint
+Code Formatter using Prettier
+CI/CD using GitHub Actions, Docker or Vercel
+
+This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) and twaked around with the developer experience in mind.
 
 ## Getting Started
 
-First, run the development server:
+First, clone the repository:
+
+```bash
+git clone https://github.com/rc23/next-js-boilerplate.git my-project-name
+cd my-project-name
+npm install
+# or
+yarn
+```
+
+Then, run the development server:
 
 ```bash
 npm run dev
@@ -26,9 +53,3 @@ To learn more about Next.js, take a look at the following resources:
 - [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
 You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.

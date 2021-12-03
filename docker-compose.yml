@@ -1,9 +1,9 @@
 version: '3'
 services:
-  journey:
+  next-js-boilerplate:
     build:
       context: ./
       dockerfile: Dockerfile
-    image: 'journey'
+    image: 'next-js-boilerplate'
     ports:
       - '3000:3000'
