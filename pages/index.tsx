@@ -1,30 +1,9 @@
-import { Container, Main, Title } from '../styles/styles';
-import Head from 'next/head';
-import Link from 'next/link';
-import type { NextPage } from 'next';
+import Layout from '../components/Layout';
 
-const prefix = process.env.NEXT_PUBLIC_BASE_PATH || '';
+const IndexPage = () => (
+  <Layout title="Home">
+    <h1>Home</h1>
+  </Layout>
+);
 
-const Home: NextPage = () => {
-  return (
-    <Container>
-      <Head>
-        <title>next-js-boilerplate</title>
-        <meta name="description" content="rc23" />
-        <link rel="icon" href={prefix + '/favicon.ico'} />
-      </Head>
-
-      <nav>
-        <Link href="/about">
-          <a>About</a>
-        </Link>
-      </nav>
-
-      <Main>
-        <Title>Welcome!</Title>
-      </Main>
-    </Container>
-  );
-};
-
-export default Home;
+export default IndexPage;

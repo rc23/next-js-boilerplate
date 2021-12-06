@@ -1,4 +1,4 @@
-import { renderComponent } from '../utils';
+import { renderComponent } from '../utils/render-component';
 import { screen } from '@testing-library/react';
 import Home from '../pages/index';
 

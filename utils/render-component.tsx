@@ -1,5 +1,5 @@
 import { render } from '@testing-library/react';
-import { theme } from '../styles';
+import { theme } from '../styles/theme';
 import { ThemeProvider } from 'styled-components';
 import type { NextPage } from 'next';
 
