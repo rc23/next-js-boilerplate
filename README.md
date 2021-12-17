@@ -2,7 +2,7 @@
 
 Next.js, TypeScript, Styled Components, Jest, Cypress, React Testing Library, ESLint, Prettier, Docker, GitHub Actions/Pages
 
-Clone this project and use it to create your own Next.js project. You can check a Next js templates demo.
+Clone this project and use it to create your own Next.js project.
 
 Features:
 
